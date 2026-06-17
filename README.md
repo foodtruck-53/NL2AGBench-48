@@ -1,9 +1,4 @@
 # NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry
-
-[![Task](https://img.shields.io/badge/Task-Geometry%20Auto--Formalization-orange)]()
-[![Benchmark](https://img.shields.io/badge/Benchmark-Released-blue)]()
-[![Code License](https://img.shields.io/badge/Code%20License-MIT-green)]()
-
 Repo for "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry"
 
 ![Translation gap between natural-language geometry problems and AlphaGeometry's formal DSL](translation_difficulty.png)
