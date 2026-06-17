@@ -37,7 +37,3 @@ We evaluate **10 state-of-the-art LLMs** (closed- and open-source, spanning mult
       year={2026},
 }
 ```
-
-## Acknowledgements
-
-NL2AGBench builds on the original [AlphaGeometry](https://github.com/google-deepmind/alphageometry) problem set, and draws reference translations from the [HAGeo-409](https://huggingface.co/datasets/HAGeo-IMO/HAGeo-409) benchmark.
