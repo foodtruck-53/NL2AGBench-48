@@ -16,7 +16,7 @@ NL2AGBench is built from geometry problems originally formalized for AlphaGeomet
 *Figure 2: Sample NL2AGBench problems spanning a range of geometric concepts, selected for both diversity and runtime efficiency.*
 ## 📊 Evaluation
 
-We evaluate **10 state-of-the-art LLMs** (closed- and open-source, spanning multiple parameter scales) in a zero-shot setting.
+We evaluate **10 state-of-the-art LLMs** (closed- and open-source, spanning multiple parameter scales).
 
 **Table 1. Zero-Shot Model Performance**
 
@@ -40,4 +40,4 @@ We evaluate **10 state-of-the-art LLMs** (closed- and open-source, spanning mult
 
 ## Acknowledgements
 
-NL2AGBench builds on the original [AlphaGeometry](https://github.com/google-deepmind/alphageometry) system and problem set, and draws reference translations from the [HAGeo-409](https://huggingface.co/datasets/HAGeo-IMO/HAGeo-409) benchmark.
+NL2AGBench builds on the original [AlphaGeometry](https://github.com/google-deepmind/alphageometry) problem set, and draws reference translations from the [HAGeo-409](https://huggingface.co/datasets/HAGeo-IMO/HAGeo-409) benchmark.
