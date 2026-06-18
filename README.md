@@ -1,5 +1,4 @@
 # NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry
-Repo for "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry"
 
 ![Translation gap between natural-language geometry problems and AlphaGeometry's formal DSL](translation_difficulty.png)
 *Figure 1: The translation gap between natural-language geometry problems and AlphaGeometry's formal DSL. While AlphaGeometry has demonstrated strong theorem-proving capabilities, the manual formalization step remains a major barrier to usability and large-scale deployment.*
