@@ -1,0 +1,96 @@
+problem1
+a b c = triangle a b c; o = circle o a b c; h = midpoint h c b; d = on_line d o h, on_line d a b; e = on_tline e c c o, on_tline e a a o ? cyclic a o e d
+problem2
+a b c = triangle a b c; m = midpoint m b a; o = circle o a b c; n = on_line n o m, on_circle n o a ? eqangle c a c n c n c b
+problem3
+a b c = triangle a b c; o = circle o a b c; d = on_circle d o a; q = midpoint q c b; s = midpoint s a d; j = midpoint j s q; m = mirror m o j; i = on_line i a d, on_line i b c ? perp s m b c
+problem4
+a b c = triangle a b c; o = circle o a b c; d = on_circle d o a; g = foot g d a b; f = foot f d a c; c1 = on_circle c1 o d, on_line c1 d g; b1 = on_circle b1 o d, on_line b1 d f ? para c1 c b1 b
+problem5
+a b c = triangle a b c; o = circle o a b c; d = on_circle d o a; p = on_circle p o a; f = foot f p a d; g = foot g p a b; h = foot h p b c; e = foot e p c d; i = on_line i f g, on_line i h e ? cyclic p g i h
+problem6
+a b c = triangle a b c; h = orthocenter h a b c; o = circle o a b c; c1 = on_circle c1 o c, on_line c1 c h; a1 = on_circle a1 o a, on_line a1 a h ? cong b a1 b c1
+problem7
+a b c = triangle a b c; o = circle o a b c; p = foot p o a c; q = foot q o a b; m = on_line m o q, on_circle m o a; n = on_line n o p, on_circle n o a; e = on_line e a c, on_line e n m; d = on_line d a b, on_line d n m ? eqangle d a d e e d e a
+problem8
+a b c = triangle a b c; f = free f; p = circle p a b f; o = circle o a b c; e = on_circle e p a, on_line e a c; d = on_circle d o b, on_line d b f ? para c d e f
+problem9
+a b c = triangle a b c; g = foot g c a b; o = circle o a b c; d = on_circle d o c, on_line d c g; e = foot e d a c; f = foot f d b c ? cyclic a e f b
+problem10
+a b c = triangle a b c; p = midpoint p b a; q = midpoint q c b; d = on_tline d b a c; r = midpoint r d c; s = midpoint s a d; o = on_line o p r, on_line o q s ? cong o s o r
+problem11
+p a b = triangle p a b; o = midpoint o b a; a1 = on_line a1 p a, on_circle a1 o a; b1 = on_line b1 p b, on_circle b1 o a; o1 = circle o1 p a1 b1 ? perp o a1 a1 o1
+problem12
+a b o = triangle a b o; m = on_line m a b; p = foot p m a o; q = foot q m b o; d = foot d b a o; c = foot c a b o; t = foot t q a o; k = foot k p b o; s = on_line s q t, on_line s p k ? perp o s p q
+problem13
+m b c = triangle m b c; i = incenter i m b c; i_b = on_tline i_b c c i, on_line i_b b i; i_c = on_tline i_c b b i, on_line i_c c i; a = midpoint a i_b i_c; o = circumcenter o b i c ? perp a b b o
+problem14
+o a = segment o a; p = on_circle p a o; q = intersection_cc q a o p; r = lc_tangent r p a, on_circle r o p ? cong p q p r
+problem15
+o x l = triangle o x l; a = foot a l o x; y = free y; b = foot b l o y; p = mirror p l a; q = mirror q l b; q1 = on_line q1 l a, on_line q1 o y; p1 = on_line p1 o x, on_line p1 l b ? cyclic o p q p1
+problem16
+q r p = triangle q r p; o1 = circle o1 q r p; s = on_circle s o1 q; y = on_line y q s; o = circle o y p q; x = on_circle x o q; i = on_line i r s, on_line i y x ? eqangle i r i x p r p x
+problem17
+b c r = triangle b c r; o = circle o b c r; s = on_circle s o b; a = on_line a b r, on_line a c s; m = foot m a r s; n = foot n a b c ? eqangle a b a m a n a c
+problem18
+a b c = r_triangle a b c; d = foot d a b c; o = midpoint o c b; m = foot m b a o; g = on_line g b m, on_circle g o a; f = on_line f c a, on_line f b m; e = on_line e a d, on_line e b m ? cong e a e b
+problem19
+a o = segment a o; b = on_circle b o a; c = on_line c a b; e = intersection_tt e b b o c c o; d = intersection_lt d c e a a o ? cong o e o d
+problem20
+m a b = iso_triangle m a b; o = circle o a b m; d = on_line d m o, on_line d a b; e = on_tline e a a o, on_pline e m a o ? cong m e m d
+problem21
+e c d = r_triangle e c d; o = midpoint o d c; a = on_tline a c c d, on_tline a e e o; f = on_line f c a, on_line f d e ? cong a e a f
+problem22
+a b c = triangle a b c; d = midpoint d a c; e = midpoint e b a; f = midpoint f c b; g = on_pline g d a f, on_pline g f a c ? para c e g b
+problem23
+a b c = triangle a b c; d = circumcenter d b a c; e = on_line e a c, angle_bisector e c b a; f = intersection_lc f e d b; g = on_tline g f d f ? para f g a c
+problem24
+a b c = triangle a b c; d e = square a c d e; g f = square c b g f ? perp d b f a
+problem25
+a b = segment a b; c = midpoint c b a; d = on_tline d b a b; e = on_line e a d, on_circle e c a; f = on_pline f e a b, on_circle f c e; g = foot g d a f ? cong a f f g
+problem26
+a b c = triangle a b c; d = midpoint d c b; e = midpoint e a c; f = midpoint f b a; g = foot g a b c ? eqangle d f d e g f g e
+problem27
+a b c = triangle a b c; d = foot d c a b; e = foot e b a c; f = midpoint f c b; g = midpoint g d e ? perp f g d e
+problem28
+a b c = triangle a b c; d = midpoint d b c; e = midpoint e c a; f = midpoint f b a; g = parallelogram d a e g ? cong c f g b
+problem29
+c a b = r_triangle c a b; f e = square a b f e; p = on_line p b e, on_line p a f ? eqangle c a c p c p c b
+problem30
+a b = segment a b; c = midpoint c b a; d = on_circle d c a; e = lc_tangent e d c, on_line e a b; f = angle_bisector f d e a, on_line f a d; g = on_line g e f, on_line g b d ? cong d f d g
+problem31
+a b = segment a b; c = midpoint c b a; d = on_circle d c a; e = on_line e b d; f = circle f d c e; g = on_pline g e a b, on_circle g f c ? cong g e c b
+problem32
+a b = segment a b; c = midpoint c b a; d = on_circle d c b; e = foot e d a b; f = lc_tangent f d c; g = on_line g d f ? eqangle d f d a d a d e
+problem33
+a b = segment a b; c = midpoint c b a; d = mirror d c b; e = on_circle e c a, on_circle e b c; f = on_tline f b a b, on_line f a e; g = on_line g b f, on_line g d e ? cong e g g f
+problem34
+a b = segment a b; c = on_circle c a b; d = on_circle d a b; e = on_circle e a b, on_pline e d b c ? cong d c e b
+problem35
+a b = segment a b; c = nsquare c b a; d = psquare d a b; e = on_line e b d; f = foot f e b c; g = foot g e d c ? cong e a g f
+problem36
+c a = segment c a; b = on_tline b c c a; d = foot d c a b ? eqangle a c a d c b c d
+problem37
+a b c = triangle a b c; d = on_circle d a b, on_circle d c b; e = on_line e d a, on_circle e a d; f = on_line f d c, on_circle f c d ? coll e b f
+problem38
+a b c = triangle a b c; e = on_line e a b, on_circle e a c; d = angle_bisector d b a c, on_line d b c; f = on_pline f e b c, on_line f a c ? eqangle e d e c e c e f
+problem39
+a b = segment a b; m = midpoint m a b; c = on_circle c m a; d = angle_mirror d a b c; e = midpoint e a d; f = on_line f b d, on_line f a c ? para c e b d
+problem40
+a b = segment a b; d = midpoint d b a; c = on_circle c b a, on_circle c a b; e = on_line e a c, on_circle e d a; f = on_circle f d a, on_line f b c ? cong a e e f
+problem41
+a b = segment a b; c = on_bline c a b; e = midpoint e a c; d = on_circle d a c, on_line d a c; f = midpoint f b d ? cong b e b f
+problem42
+a b c = triangle a b c; a1 = midpoint a1 c b; f = circle f a b c; s = on_aline s a b c a a1, on_line s b c; p = on_circle p f a, on_line p a a1; q = on_circle q f a, on_line q a s ? para b c p q
+problem43
+a b c = triangle a b c; a1 = midpoint a1 c b; b1 = midpoint b1 c a; c1 = midpoint c1 b a; o = circle o a b c ? perp o a1 b1 c1
+problem44
+a b c = triangle a b c; a1 = midpoint a1 c b; n = on_line n a a1; g = foot g n a b; h = foot h n a c; s = on_aline s a b c a a1, on_line s b c ? perp g h a s
+problem45
+a b = segment a b; c = on_bline c a b; d = on_line d a c; e = on_circle e c d, on_line e b c ? cong a e b d
+problem46
+c b = segment c b; d = midpoint d c b; a = free a; e = midpoint e b a; f = midpoint f c a; g = on_line g a d, on_line g e f ? cong e g g f
+problem47
+a b = segment a b; c = midpoint c b a; d = on_circle d c a; e = lc_tangent e d c, on_line e a b; f = foot f a d e ? eqangle a f a d a d a b
+problem48
+a b c = triangle a b c; d = foot d b a c; e = foot e a b c; f = foot f b d e ? eqangle b a b d b c b f
